@@ -1,0 +1,35 @@
+{% extends 'base1.html' %}
+
+{% block title %}Items{% endblock title %}
+
+{% block body %}
+<style>
+    img{
+            max-width: 20vw;
+        }
+</style>
+<div class="mainbox d-flex my-4">
+    <div class="leftbox w-50 min-vh-100 d-flex justify-content-center align-items-center">
+        <img src="static\pc1.jpg" alt="">
+    </div>
+    <div class="rightbox w-50 min-vh-100">
+        <h4 class="p-3">
+        ASUS ROG Strix G15 Gaming Laptop, 15.6” 300Hz 3ms IPS Type FHD Display, NVIDIA GeForce RTX 3050 Ti, AMD Ryzen 7 4800H, 16GB DDR4, 512GB PCIe SSD, RGB Keyboard, Windows 11, G513IE-PH74
+            
+        </h4>    
+        <div class="p-5">
+            <h5>About Item</h5>
+            <li>NVIDIA GeForce RTX 3050 Ti 4GB GDDR6 with ROG Boost up to 1795MHz at 80W (95W with Dynamic Boost)</li>
+            <li>AMD Ryzen 7 4800H Mobile Processor (8-core/16-thread, 12MB Cache, 4.2 GHz max boost)</li>
+
+            <li>300Hz 3ms 15.6” Full HD 1920x1080 IPS-Type Display</li>
+            <li>16GB DDR4 RAM | 512GB PCIe NVMe M.2 SSD | Windows 11 Home</li>
+            <li>ROG Intelligent Cooling thermal system with Thermal Grizzly Liquid Metal Thermal Compound</li>
+            <a class="text-decoration-none text-light" href="/payment"><button type="button" class="btn btn-outline-light btn-danger my-4">Buy Now</button></a>
+                
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

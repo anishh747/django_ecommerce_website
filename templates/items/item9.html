@@ -1,0 +1,35 @@
+{% extends 'base1.html' %}
+
+{% block title %}Items{% endblock title %}
+
+{% block body %}
+<style>
+    img{
+            max-width: 20vw;
+        }
+</style>
+<div class="mainbox d-flex my-4">
+    <div class="leftbox w-50 min-vh-100 d-flex justify-content-center align-items-center">
+        <img src="static\pc3.jpg" alt="">
+    </div>
+    <div class="rightbox w-50 min-vh-100">
+        <h4 class="p-3">
+        Acer Nitro 5 AN515-57-79TD Gaming Laptop | Intel Core i7-11800H | NVIDIA GeForce RTX 3050 Ti Laptop GPU | 15.6" FHD 144Hz IPS Display | 8GB DDR4 | 512GB NVMe SSD | Killer Wi-Fi 6 | Backlit Keyboard
+            
+        </h4>    
+        <div class="p-5">
+            <h5>About Item</h5>
+            <li>Dominate the Game: With the 11th Gen Intel Core i7-11800H processor, your Nitro 5 is packed with incredible power for all your games</li>
+            <li>RTX, It's On: The latest NVIDIA GeForce RTX 3050 Ti (4GB dedicated GDDR6 VRAM) is powered by award-winning architecture with new Ray Tracing Cores, Tensor Cores, and streaming multiprocessors support DirectX 12 Ultimate for the ultimate gaming performance</li>
+
+            <li>Visual Intensity: Explore game worlds in Full HD detail on the 15.6" widescreen LED-backlit IPS display with 1920 x 1080 resolution, 144Hz refresh rate and 80% screen-to-body, 16:9 aspect ratio</li>
+            <li>Prioritize Your Gameplay: Killer DoubleShot Pro with Ethernet E2600 and Killer Wi-Fi 6 1650 lets you use Wi-Fi and Ethernet at the same time, and have total control over priority traffic to maximize speed, throughput, and control</li>
+            <li>Take Control of Your Gaming Laptop: The NitroSense UI can be called up with the dedicated keyboard button so you can instantly visualize your PC's component temperature, fan speed, loading performance, power plan, and more</li>
+            <a class="text-decoration-none text-light" href="/payment"><button type="button" class="btn btn-outline-light btn-danger my-4">Buy Now</button></a>
+                
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

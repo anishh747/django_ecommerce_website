@@ -1,0 +1,33 @@
+{% extends 'base1.html' %}
+
+{% block title %}Items{% endblock title %}
+
+{% block body %}
+<style>
+    img{
+            max-width: 20vw;
+        }
+</style>
+<div class="mainbox d-flex my-4">
+    <div class="leftbox w-50 min-vh-100 d-flex justify-content-center align-items-center">
+        <img src="static\iphone122.jpg" alt="">
+    </div>
+    <div class="rightbox w-50 min-vh-100">
+        <h4 class="p-3">
+            Apple iPhone 12, 64GB, Green - Fully Unlocked
+        </h4>    
+        <div class="p-5">
+            <h5>About Item</h5>
+            <li>6.7-inch Liquid Retina HD LCD display, water and dust resistant, with Face ID</li>
+            <li>Dual-camera system with 12MP Ultra Wide camera, 12MP TrueDepth front camera with Portrait mode</li>
+            <li>Fully unlocked and compatible with any carrier of choice (e.g. AT&T, T-Mobile, Sprint, Verizon, US-Cellular, Cricket, Metro, etc.).</li>
+            <li>The device does not come with headphones or a SIM card. It does include a charger and charging cable that may be generic.</li>
+            <li>Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm's length.</li>
+            <a class="text-decoration-none text-light" href="/payment"><button type="button" class="btn btn-outline-light btn-danger my-4">Buy Now</button></a>
+                
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

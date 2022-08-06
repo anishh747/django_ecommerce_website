@@ -1,0 +1,35 @@
+{% extends 'base1.html' %}
+
+{% block title %}Items{% endblock title %}
+
+{% block body %}
+<style>
+    img{
+            max-width: 20vw;
+        }
+</style>
+<div class="mainbox d-flex my-4">
+    <div class="leftbox w-50 min-vh-100 d-flex justify-content-center align-items-center">
+        <img src="static\pc2.jpg" alt="">
+    </div>
+    <div class="rightbox w-50 min-vh-100">
+        <h4 class="p-3">
+        Lenovo - Legion Slim 7 - Gaming Laptop - AMD Ryzen 7 5800H - 16GB DDR4 RAM - 2 x 1TB NVMe TLC SSD - NVIDIA GeForce RTX 3060 Max-Q Graphics - 15.6" FHD 165 Hz - Windows 11 Home
+            
+        </h4>    
+        <div class="p-5">
+            <h5>About Item</h5>
+            <li>Welcome to next-generation gaming with up to 8 high-performance cores in the AMD Ryzen 7 5800H processor, 16GB 3200 MHz DDR4 memory, and 2 x 1TB M.2 NVMe PCIe SSD storage</li>
+            <li>NVIDIA GeForce RTX 30 Series graphics bring 2nd Generation Ray Tracing, 3rd Generation AI Tensor Cores, and more for a huge leap in graphical performance</li>
+
+            <li>Dominate the competition in FHD at 165 Hz with the Legion Slim 7 gaming laptop's high dynamic range 15.6" display with Dolby Vision and AMD FreeSync support</li>
+            <li>Exclusive to Lenovo Legion laptops, the Lenovo Legion AI Engine, a system of AI solutions, dynamically shifts power between the CPU and GPU for more FPS on today's top AAA titles</li>
+            <li>Stay connected with WiFi 6, Bluetooth 5.1, two USB-A and two USB-C ports</li>
+            <a class="text-decoration-none text-light" href="/payment"><button type="button" class="btn btn-outline-light btn-danger my-4">Buy Now</button></a>
+                
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

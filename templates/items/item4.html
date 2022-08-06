@@ -1,0 +1,35 @@
+{% extends 'base1.html' %}
+
+{% block title %}Items{% endblock title %}
+
+{% block body %}
+<style>
+    img{
+            max-width: 20vw;
+        }
+</style>
+<div class="mainbox d-flex my-4">
+    <div class="leftbox w-50 min-vh-100 d-flex justify-content-center align-items-center">
+        <img src="static\hyperx.jpg" alt="">
+    </div>
+    <div class="rightbox w-50 min-vh-100">
+        <h4 class="p-3">
+        HyperX Cloud Stinger – Gaming Headset, Lightweight, Comfortable Memory Foam, Swivel to Mute Noise-Cancellation Mic, Works on PC, PS4, PS5, Xbox One, Xbox Series X|S, Nintendo Switch and Mobile ,Black
+            
+        </h4>    
+        <div class="p-5">
+            <h5>About Item</h5>
+            <li>Headphones fit type:Over-Ear</li>
+            <li>Lightweight headset (275 gram) with 90-degree rotating ear cups provide a snug fit that conforms to your head.50 millimeter directional drivers for audio precision — enjoy the full audioscape of your favorite games</li>
+</li>
+            <li>HyperX signature memory foam provides maximum comfort during extended use</li>
+            <li>Adjustable steel slider for a solid and long lasting sturdy feel</li>
+            <li>Swivel-to-mute noise-cancellation microphone so you’ll always know when you’re muted</li>
+            <a class="text-decoration-none text-light" href="/payment"><button type="button" class="btn btn-outline-light btn-danger my-4">Buy Now</button></a>
+                
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
